@@ -1,0 +1,126 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.offer{
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red, green, yellow);
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+.nav{
+    border: 5px solid red;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+.third{
+    margin-top: 40px;
+    border: 5px solid green;
+    border-radius: 15px;
+    background-color: lightgreen;
+    height: 210px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para{
+    border: 3px solid green;
+    border-radius: 10px;
+    background-color: turquoise;
+    height: 100px;
+    width: 30%;
+}
+
+.fourth{
+    margin-top: 20px;
+    text-decoration: underline red;
+    background-image: linear-gradient(to right, red, yellow, red);
+    text-align: center;
+    height: 45px;
+}
+
+.fifth{
+    margin-top: 15px;
+    border: 3px solid green;
+    background-image: radial-gradient(blue, green);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{ 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: yellow;
+    height: 110px;
+    width: 15%;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.sixth{
+    margin-top: 50px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 100px;
+    /* grid-template-rows: 60px 100px 200px 60px; */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border: 2px solid grey;
+}
+.grid{
+    color: white;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.grid1{
+    background-color: red;
+    grid-column: 1/5;
+    height: 50px;
+    text-align: center;
+}
+.grid2{
+    background-color: limegreen;
+    text-align: center;
+}
+.grid3{
+    background-color: royalblue;
+}
+.grid4{
+   background-color: blue;
+}
+.grid5{
+    background-color: black;
+    grid-row: 2/4;
+    grid-column: 4/4;
+    height: 200px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.grid6{
+    background-color: chocolate;
+    grid-column: 1/4;
+}
+.grid7{
+    background-color: aquamarine;
+    color: black;
+    grid-column: 1/5;
+    text-align: center;
+    height: 50px;
+}
